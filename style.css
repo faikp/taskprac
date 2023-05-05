@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(116, 66, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px 0;
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+.fir{
+    transform: rotate(90deg) translate(42px ,-100px);
+}
+.sec{
+    transform: rotate(-45deg);
+    background: white;
+    z-index: 1;
+}
+.thi{
+    transform:translate(-100px,42px);
+}
